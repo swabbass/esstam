@@ -1,6 +1,8 @@
 # esstam
 
- Each bulk is limited to 1k docs
+ Each bulk is limited to 1k docs 
+ 
+ <b>NOTE: all are radomly different with different UUIDs for uniqness </b>
 
  4 threads in pool that simulates 4 loads to index, in the same index! and same type! in parallel
 
