@@ -8,7 +8,19 @@
 
  local machine es downloaded without any furthur config 
 
+## usage
+
+after downloading es and installing it in your machine set the cluster name and host(default 127.0.0.1) port (default 9300)
+
+```java
+  private static final String CLUSTER_NAME = "elasticsearch_warda";//get from http://localhost:9200/?pretty from browser or curl
+   private static final String HOST = "127.0.0.1";//leave it if did not change
+   private static final int PORT = 9300;//leave it if did not change
+```
+
 ## the doc it self is small like 
+
+you can change it by changing the class StamDoc just make sure it is a pojo ,gson will parse it to json
 
 ```
 {"id":"b8bcffe0-9362-4252-a1f9-654ddefbe5fb","m1":1946573399,"m2":510437596,"m3":1201126719,"m4":1411209271,"m5":1020306497,"m6":2019522512}
